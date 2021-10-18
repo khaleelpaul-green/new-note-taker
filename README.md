@@ -40,7 +40,7 @@ npm start
 
 ## Website
 
-If you just want to see the Note Taker in action, check out the deployed website [here](https://note-taker-kpg.herokuapp.com/).
+If you just want to see the Note Taker in action, check out the deployed website [here](https://kpg-note-taker.herokuapp.com/).
 
 ## Authors
 
