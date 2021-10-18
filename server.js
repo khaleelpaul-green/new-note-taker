@@ -14,12 +14,12 @@ app.use(express.static('public'));
 
 // route to landing page
 app.get('/', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/index.html'))
+  res.sendFile(path.join(__dirname, './public/index.html'))
 );
 
 // return the `notes.html` file
 app.get('/notes', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/notes.html'))
+  res.sendFile(path.join(__dirname, './public/notes.html'))
 );
 
 // read the `db.json` file and return all saved notes as JSON.
@@ -66,7 +66,7 @@ app.delete('/api/notes/:id', (req, res) => {
 
 // on false route, send user to homepage by returning the `index.html` file
 app.get('*', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/index.html'))
+  res.sendFile(path.join(__dirname, './public/index.html'))
 );
 
 // bind and listen the connections on the specified host and port
